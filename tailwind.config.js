@@ -1,10 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': 'var(--primary)',
+        'secondary': 'var(--secondary)',
+      },
+      fontFamily: {
+        'archia': ['archia', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};

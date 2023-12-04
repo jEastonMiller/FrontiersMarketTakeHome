@@ -15,13 +15,15 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    'require-jsdoc': 'off',
+    'max-len': ['error', { 'code': 2000 }],
     "spaced-comment": [
       "error",
       "always",
       {
         "exceptions": ["///"]
       }
-    ]
+    ],
   },
 }
 
